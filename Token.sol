@@ -2,7 +2,7 @@ pragma solidity 0.4.18;
 
 import "./ERC20Interface.sol";
 
-contract Token is IToken, ERC20Interface{
+contract Token is ERC20Interface{
 
     address private host;
     address private project;
